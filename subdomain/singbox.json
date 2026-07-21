@@ -157,7 +157,7 @@
       "method": "aes-128-gcm",
       "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=subdomain.installed.dpdns.org;path=/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=subdomain.installed.dpdns.org;path=/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {

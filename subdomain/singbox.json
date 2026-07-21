@@ -110,154 +110,14 @@
       "tag": "DIRECT"
     },
     {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
+      "type": "vless",
+      "tag": "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
       "server": "subdomain.installed.dpdns.org",
       "server_port": 443,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "uuid": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
       "transport": {
         "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "subdomain.installed.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-      "server": "104.17.66.138",
-      "server_port": 443,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "subdomain.installed.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
-      "server": "104.27.96.197",
-      "server_port": 2053,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "subdomain.installed.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-      "server": "8.6.112.165",
-      "server_port": 443,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "subdomain.installed.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-      "server": "Grok.com",
-      "server_port": 443,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "subdomain.installed.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
-      "server": "npmjs.com",
-      "server_port": 443,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "subdomain.installed.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا openai.com:443 [TROJAN]",
-      "server": "openai.com",
-      "server_port": 443,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "subdomain.installed.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا chess.com:443 [TROJAN]",
-      "server": "chess.com",
-      "server_port": 443,
-      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
+        "service_name": "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU="
       },
       "tls": {
         "enabled": true,
@@ -290,6 +150,137 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+      "server": "104.17.66.138",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=subdomain.installed.dpdns.org;path=/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
+      "server": "104.27.96.197",
+      "server_port": 2053,
+      "uuid": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU="
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "subdomain.installed.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
+      "server": "8.6.112.165",
+      "server_port": 443,
+      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "transport": {
+        "type": "grpc",
+        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "subdomain.installed.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا Grok.com:443 [SS]",
+      "server": "Grok.com",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=subdomain.installed.dpdns.org;path=/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا npmjs.com:443 [VLESS]",
+      "server": "npmjs.com",
+      "server_port": 443,
+      "uuid": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU="
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "subdomain.installed.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا openai.com:443 [TROJAN]",
+      "server": "openai.com",
+      "server_port": 443,
+      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "transport": {
+        "type": "grpc",
+        "service_name": "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "subdomain.installed.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا chess.com:443 [SS]",
+      "server": "chess.com",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=subdomain.installed.dpdns.org;path=/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
@@ -299,30 +290,30 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
-        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
+        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]",
+        "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
         "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-        "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-        "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
+        "سرویس رایگان نوا Grok.com:443 [SS]",
+        "سرویس رایگان نوا npmjs.com:443 [VLESS]",
         "سرویس رایگان نوا openai.com:443 [TROJAN]",
-        "سرویس رایگان نوا chess.com:443 [TROJAN]",
-        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]"
+        "سرویس رایگان نوا chess.com:443 [SS]"
       ]
     },
     {
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
+        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]",
+        "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
         "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-        "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-        "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
+        "سرویس رایگان نوا Grok.com:443 [SS]",
+        "سرویس رایگان نوا npmjs.com:443 [VLESS]",
         "سرویس رایگان نوا openai.com:443 [TROJAN]",
-        "سرویس رایگان نوا chess.com:443 [TROJAN]",
-        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]"
+        "سرویس رایگان نوا chess.com:443 [SS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -332,30 +323,30 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
-        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
+        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]",
+        "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
         "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-        "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-        "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
+        "سرویس رایگان نوا Grok.com:443 [SS]",
+        "سرویس رایگان نوا npmjs.com:443 [VLESS]",
         "سرویس رایگان نوا openai.com:443 [TROJAN]",
-        "سرویس رایگان نوا chess.com:443 [TROJAN]",
-        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]"
+        "سرویس رایگان نوا chess.com:443 [SS]"
       ]
     },
     {
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
-        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
+        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]",
+        "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
         "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-        "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-        "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
+        "سرویس رایگان نوا Grok.com:443 [SS]",
+        "سرویس رایگان نوا npmjs.com:443 [VLESS]",
         "سرویس رایگان نوا openai.com:443 [TROJAN]",
-        "سرویس رایگان نوا chess.com:443 [TROJAN]",
-        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]"
+        "سرویس رایگان نوا chess.com:443 [SS]"
       ]
     },
     {
@@ -390,15 +381,15 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
+        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]",
+        "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
         "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-        "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-        "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
+        "سرویس رایگان نوا Grok.com:443 [SS]",
+        "سرویس رایگان نوا npmjs.com:443 [VLESS]",
         "سرویس رایگان نوا openai.com:443 [TROJAN]",
-        "سرویس رایگان نوا chess.com:443 [TROJAN]",
-        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]"
+        "سرویس رایگان نوا chess.com:443 [SS]"
       ]
     },
     {
@@ -413,15 +404,15 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
+        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]",
+        "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
         "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-        "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-        "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
+        "سرویس رایگان نوا Grok.com:443 [SS]",
+        "سرویس رایگان نوا npmjs.com:443 [VLESS]",
         "سرویس رایگان نوا openai.com:443 [TROJAN]",
-        "سرویس رایگان نوا chess.com:443 [TROJAN]",
-        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]"
+        "سرویس رایگان نوا chess.com:443 [SS]"
       ]
     },
     {
@@ -431,15 +422,15 @@
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
-        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.66.138:443 [TROJAN]",
-        "سرویس رایگان نوا 104.27.96.197:2053 [TROJAN]",
+        "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]",
+        "سرویس رایگان نوا 104.17.66.138:443 [SS]",
+        "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]",
         "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]",
-        "سرویس رایگان نوا Grok.com:443 [TROJAN]",
-        "سرویس رایگان نوا npmjs.com:443 [TROJAN]",
+        "سرویس رایگان نوا Grok.com:443 [SS]",
+        "سرویس رایگان نوا npmjs.com:443 [VLESS]",
         "سرویس رایگان نوا openai.com:443 [TROJAN]",
-        "سرویس رایگان نوا chess.com:443 [TROJAN]",
-        "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]"
+        "سرویس رایگان نوا chess.com:443 [SS]"
       ]
     },
     {

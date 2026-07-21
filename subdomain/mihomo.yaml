@@ -32,16 +32,24 @@ proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, alterId: 0, cipher: auto, tls: true, servername: subdomain.installed.dpdns.org, network: ws, ws-opts: {path: /?fake=1, headers: {Host: subdomain.installed.dpdns.org}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, alterId: 0, cipher: auto, tls: true, servername: subdomain.installed.dpdns.org, network: ws, ws-opts: {path: /?fake=1, headers: {Host: subdomain.installed.dpdns.org}}, udp: false}
   - {name: "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]", server: subdomain.installed.dpdns.org, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]", server: Chatgpt.com, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا 104.17.66.138:443 [SS]", server: 104.17.66.138, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]", server: 104.27.96.197, port: 2053, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]", server: 8.6.112.165, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا Grok.com:443 [SS]", server: Grok.com, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا npmjs.com:443 [VLESS]", server: npmjs.com, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا openai.com:443 [TROJAN]", server: openai.com, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا chess.com:443 [SS]", server: chess.com, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا 104.18.1.1:2053 [TROJAN]", server: 104.18.1.1, port: 2053, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 198.41.209.72:2053 [TROJAN]", server: 198.41.209.72, port: 2053, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.16.148.67:2096 [SS]", server: 104.16.148.67, port: 2096, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.17.103.255:2083 [VLESS]", server: 104.17.103.255, port: 2083, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.17.165.220:2087 [TROJAN]", server: 104.17.165.220, port: 2087, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 172.66.1.42:2083 [SS]", server: 172.66.1.42, port: 2083, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.17.108.238:2053 [VLESS]", server: 104.17.108.238, port: 2053, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.17.101.27:8443 [TROJAN]", server: 104.17.101.27, port: 8443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.17.151.32:2053 [SS]", server: 104.17.151.32, port: 2053, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 162.159.39.56:8443 [VLESS]", server: 162.159.39.56, port: 8443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 91.193.59.74:443 [TROJAN]", server: 91.193.59.74, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.17.212.138:2083 [SS]", server: 104.17.212.138, port: 2083, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.17.187.111:8443 [VLESS]", server: 104.17.187.111, port: 8443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.19.147.54:443 [TROJAN]", server: 104.19.147.54, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.16.144.62:2096 [SS]", server: 104.16.144.62, port: 2096, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 172.67.70.48:443 [VLESS]", server: 172.67.70.48, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.17.96.150:2083 [TROJAN]", server: 104.17.96.150, port: 2083, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا 104.18.0.0:443 [SS]", server: 104.18.0.0, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -53,16 +61,24 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا 198.41.209.72:2053 [TROJAN]
+      - سرویس رایگان نوا 104.16.148.67:2096 [SS]
+      - سرویس رایگان نوا 104.17.103.255:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.165.220:2087 [TROJAN]
+      - سرویس رایگان نوا 172.66.1.42:2083 [SS]
+      - سرویس رایگان نوا 104.17.108.238:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.101.27:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.151.32:2053 [SS]
+      - سرویس رایگان نوا 162.159.39.56:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.74:443 [TROJAN]
+      - سرویس رایگان نوا 104.17.212.138:2083 [SS]
+      - سرویس رایگان نوا 104.17.187.111:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.54:443 [TROJAN]
+      - سرویس رایگان نوا 104.16.144.62:2096 [SS]
+      - سرویس رایگان نوا 172.67.70.48:443 [VLESS]
+      - سرویس رایگان نوا 104.17.96.150:2083 [TROJAN]
+      - سرویس رایگان نوا 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -70,32 +86,48 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا 198.41.209.72:2053 [TROJAN]
+      - سرویس رایگان نوا 104.16.148.67:2096 [SS]
+      - سرویس رایگان نوا 104.17.103.255:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.165.220:2087 [TROJAN]
+      - سرویس رایگان نوا 172.66.1.42:2083 [SS]
+      - سرویس رایگان نوا 104.17.108.238:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.101.27:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.151.32:2053 [SS]
+      - سرویس رایگان نوا 162.159.39.56:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.74:443 [TROJAN]
+      - سرویس رایگان نوا 104.17.212.138:2083 [SS]
+      - سرویس رایگان نوا 104.17.187.111:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.54:443 [TROJAN]
+      - سرویس رایگان نوا 104.16.144.62:2096 [SS]
+      - سرویس رایگان نوا 172.67.70.48:443 [VLESS]
+      - سرویس رایگان نوا 104.17.96.150:2083 [TROJAN]
+      - سرویس رایگان نوا 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا 198.41.209.72:2053 [TROJAN]
+      - سرویس رایگان نوا 104.16.148.67:2096 [SS]
+      - سرویس رایگان نوا 104.17.103.255:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.165.220:2087 [TROJAN]
+      - سرویس رایگان نوا 172.66.1.42:2083 [SS]
+      - سرویس رایگان نوا 104.17.108.238:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.101.27:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.151.32:2053 [SS]
+      - سرویس رایگان نوا 162.159.39.56:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.74:443 [TROJAN]
+      - سرویس رایگان نوا 104.17.212.138:2083 [SS]
+      - سرویس رایگان نوا 104.17.187.111:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.54:443 [TROJAN]
+      - سرویس رایگان نوا 104.16.144.62:2096 [SS]
+      - سرویس رایگان نوا 172.67.70.48:443 [VLESS]
+      - سرویس رایگان نوا 104.17.96.150:2083 [TROJAN]
+      - سرویس رایگان نوا 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -103,16 +135,24 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا 198.41.209.72:2053 [TROJAN]
+      - سرویس رایگان نوا 104.16.148.67:2096 [SS]
+      - سرویس رایگان نوا 104.17.103.255:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.165.220:2087 [TROJAN]
+      - سرویس رایگان نوا 172.66.1.42:2083 [SS]
+      - سرویس رایگان نوا 104.17.108.238:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.101.27:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.151.32:2053 [SS]
+      - سرویس رایگان نوا 162.159.39.56:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.74:443 [TROJAN]
+      - سرویس رایگان نوا 104.17.212.138:2083 [SS]
+      - سرویس رایگان نوا 104.17.187.111:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.54:443 [TROJAN]
+      - سرویس رایگان نوا 104.16.144.62:2096 [SS]
+      - سرویس رایگان نوا 172.67.70.48:443 [VLESS]
+      - سرویس رایگان نوا 104.17.96.150:2083 [TROJAN]
+      - سرویس رایگان نوا 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,16 +179,24 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا 198.41.209.72:2053 [TROJAN]
+      - سرویس رایگان نوا 104.16.148.67:2096 [SS]
+      - سرویس رایگان نوا 104.17.103.255:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.165.220:2087 [TROJAN]
+      - سرویس رایگان نوا 172.66.1.42:2083 [SS]
+      - سرویس رایگان نوا 104.17.108.238:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.101.27:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.151.32:2053 [SS]
+      - سرویس رایگان نوا 162.159.39.56:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.74:443 [TROJAN]
+      - سرویس رایگان نوا 104.17.212.138:2083 [SS]
+      - سرویس رایگان نوا 104.17.187.111:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.54:443 [TROJAN]
+      - سرویس رایگان نوا 104.16.144.62:2096 [SS]
+      - سرویس رایگان نوا 172.67.70.48:443 [VLESS]
+      - سرویس رایگان نوا 104.17.96.150:2083 [TROJAN]
+      - سرویس رایگان نوا 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -161,16 +209,24 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا 198.41.209.72:2053 [TROJAN]
+      - سرویس رایگان نوا 104.16.148.67:2096 [SS]
+      - سرویس رایگان نوا 104.17.103.255:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.165.220:2087 [TROJAN]
+      - سرویس رایگان نوا 172.66.1.42:2083 [SS]
+      - سرویس رایگان نوا 104.17.108.238:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.101.27:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.151.32:2053 [SS]
+      - سرویس رایگان نوا 162.159.39.56:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.74:443 [TROJAN]
+      - سرویس رایگان نوا 104.17.212.138:2083 [SS]
+      - سرویس رایگان نوا 104.17.187.111:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.54:443 [TROJAN]
+      - سرویس رایگان نوا 104.16.144.62:2096 [SS]
+      - سرویس رایگان نوا 172.67.70.48:443 [VLESS]
+      - سرویس رایگان نوا 104.17.96.150:2083 [TROJAN]
+      - سرویس رایگان نوا 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT

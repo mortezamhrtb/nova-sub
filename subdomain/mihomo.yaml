@@ -39,6 +39,7 @@ proxies:
   - {name: "سرویس رایگان نوا npmjs.com:443 [VLESS]", server: npmjs.com, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
   - {name: "سرویس رایگان نوا openai.com:443 [VLESS]", server: openai.com, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
   - {name: "سرویس رایگان نوا chess.com:443 [VLESS]", server: chess.com, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا Chatgpt.com:443 [VLESS]", server: Chatgpt.com, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -57,6 +58,7 @@ proxy-groups:
       - سرویس رایگان نوا npmjs.com:443 [VLESS]
       - سرویس رایگان نوا openai.com:443 [VLESS]
       - سرویس رایگان نوا chess.com:443 [VLESS]
+      - سرویس رایگان نوا Chatgpt.com:443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -71,6 +73,7 @@ proxy-groups:
       - سرویس رایگان نوا npmjs.com:443 [VLESS]
       - سرویس رایگان نوا openai.com:443 [VLESS]
       - سرویس رایگان نوا chess.com:443 [VLESS]
+      - سرویس رایگان نوا Chatgpt.com:443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -84,6 +87,7 @@ proxy-groups:
       - سرویس رایگان نوا npmjs.com:443 [VLESS]
       - سرویس رایگان نوا openai.com:443 [VLESS]
       - سرویس رایگان نوا chess.com:443 [VLESS]
+      - سرویس رایگان نوا Chatgpt.com:443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -98,6 +102,7 @@ proxy-groups:
       - سرویس رایگان نوا npmjs.com:443 [VLESS]
       - سرویس رایگان نوا openai.com:443 [VLESS]
       - سرویس رایگان نوا chess.com:443 [VLESS]
+      - سرویس رایگان نوا Chatgpt.com:443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -131,6 +136,7 @@ proxy-groups:
       - سرویس رایگان نوا npmjs.com:443 [VLESS]
       - سرویس رایگان نوا openai.com:443 [VLESS]
       - سرویس رایگان نوا chess.com:443 [VLESS]
+      - سرویس رایگان نوا Chatgpt.com:443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -150,6 +156,7 @@ proxy-groups:
       - سرویس رایگان نوا npmjs.com:443 [VLESS]
       - سرویس رایگان نوا openai.com:443 [VLESS]
       - سرویس رایگان نوا chess.com:443 [VLESS]
+      - سرویس رایگان نوا Chatgpt.com:443 [VLESS]
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT

@@ -29,19 +29,27 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, alterId: 0, cipher: auto, tls: true, servername: subdomain.installed.dpdns.org, network: ws, ws-opts: {path: /?fake=1, headers: {Host: subdomain.installed.dpdns.org}}, udp: false}
-  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, alterId: 0, cipher: auto, tls: true, servername: subdomain.installed.dpdns.org, network: ws, ws-opts: {path: /?fake=1, headers: {Host: subdomain.installed.dpdns.org}}, udp: false}
-  - {name: "سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]", server: subdomain.installed.dpdns.org, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا Chatgpt.com:443 [TROJAN]", server: Chatgpt.com, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا 104.17.66.138:443 [SS]", server: 104.17.66.138, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.27.96.197:2053 [VLESS]", server: 104.27.96.197, port: 2053, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا 8.6.112.165:443 [TROJAN]", server: 8.6.112.165, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا Grok.com:443 [SS]", server: Grok.com, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا npmjs.com:443 [VLESS]", server: npmjs.com, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا openai.com:443 [TROJAN]", server: openai.com, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا chess.com:443 [SS]", server: chess.com, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
-  - {name: "سرویس رایگان نوا 104.18.0.0:443 [TROJAN]", server: 104.18.0.0, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, alterId: 0, cipher: auto, tls: true, servername: nova-falcon-node-a8da.morteza-b1a.workers.dev, network: ws, ws-opts: {path: /?fake=1, headers: {Host: nova-falcon-node-a8da.morteza-b1a.workers.dev}}, udp: false}
+  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, alterId: 0, cipher: auto, tls: true, servername: nova-falcon-node-a8da.morteza-b1a.workers.dev, network: ws, ws-opts: {path: /?fake=1, headers: {Host: nova-falcon-node-a8da.morteza-b1a.workers.dev}}, udp: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy nova-falcon-node-a8da.morteza-b1a.workers.dev:443 [VLESS]", server: nova-falcon-node-a8da.morteza-b1a.workers.dev, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 173.245.58.126:2087 [TROJAN]", server: 173.245.58.126, port: 2087, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: nova-falcon-node-a8da.morteza-b1a.workers.dev, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.209.157:8443 [SS]", server: 198.41.209.157, port: 8443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.49:2096 [VLESS]", server: 104.18.33.49, port: 2096, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: nova-falcon-node-a8da.morteza-b1a.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.19.84:2087 [TROJAN]", server: 104.17.19.84, port: 2087, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.48.77:2053 [SS]", server: 104.19.48.77, port: 2053, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-falcon-node-a8da.morteza-b1a.workers.dev, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.32.93:2096 [VLESS]", server: 104.19.32.93, port: 2096, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.98.207:2096 [TROJAN]", server: 104.17.98.207, port: 2096, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: nova-falcon-node-a8da.morteza-b1a.workers.dev, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.240.107:443 [SS]", server: 104.16.240.107, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.154:2087 [VLESS]", server: 198.41.223.154, port: 2087, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: nova-falcon-node-a8da.morteza-b1a.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.254:2083 [TROJAN]", server: 108.162.198.254, port: 2083, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.114.197:2096 [SS]", server: 104.17.114.197, port: 2096, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-falcon-node-a8da.morteza-b1a.workers.dev, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.55.1:2087 [VLESS]", server: 104.17.55.1, port: 2087, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.35.0:2083 [TROJAN]", server: 104.19.35.0, port: 2083, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: nova-falcon-node-a8da.morteza-b1a.workers.dev, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.70.200:2087 [SS]", server: 172.67.70.200, port: 2087, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: subdomain.installed.dpdns.org, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.65.137:443 [VLESS]", server: 172.67.65.137, port: 443, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: nova-falcon-node-a8da.morteza-b1a.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.51.194:443 [TROJAN]", server: 104.19.51.194, port: 443, type: trojan, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, sni: subdomain.installed.dpdns.org, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: "%2Fvideo%2FGERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU%3D", grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]", server: 104.18.0.0, port: 443, type: ss, cipher: aes-128-gcm, password: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-falcon-node-a8da.morteza-b1a.workers.dev, path: "/video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: cf56f2e6-ccb3-4cc9-8af8-667c7ef43c55, tls: true, skip-cert-verify: false, servername: subdomain.installed.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /video/GERBTxZXRwwPEAwBWF4BQU8bRVcSElZMW1MVWRVUUw0dUgwATVIMGFQFRxoPEwwQRw8OUlMBHUU=, grpc-user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -52,67 +60,99 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy nova-falcon-node-a8da.morteza-b1a.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.126:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.157:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.49:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.19.84:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.48.77:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.32.93:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.98.207:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.240.107:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.154:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.114.197:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.55.1:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.0:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.70.200:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.65.137:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.51.194:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy nova-falcon-node-a8da.morteza-b1a.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.126:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.157:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.49:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.19.84:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.48.77:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.32.93:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.98.207:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.240.107:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.154:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.114.197:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.55.1:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.0:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.70.200:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.65.137:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.51.194:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy nova-falcon-node-a8da.morteza-b1a.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.126:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.157:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.49:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.19.84:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.48.77:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.32.93:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.98.207:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.240.107:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.154:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.114.197:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.55.1:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.0:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.70.200:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.65.137:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.51.194:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy nova-falcon-node-a8da.morteza-b1a.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.126:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.157:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.49:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.19.84:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.48.77:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.32.93:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.98.207:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.240.107:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.154:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.114.197:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.55.1:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.0:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.70.200:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.65.137:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.51.194:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,17 +178,25 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy nova-falcon-node-a8da.morteza-b1a.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.126:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.157:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.49:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.19.84:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.48.77:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.32.93:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.98.207:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.240.107:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.154:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.114.197:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.55.1:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.0:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.70.200:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.65.137:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.51.194:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -160,17 +208,25 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا subdomain.installed.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا Chatgpt.com:443 [TROJAN]
-      - سرویس رایگان نوا 104.17.66.138:443 [SS]
-      - سرویس رایگان نوا 104.27.96.197:2053 [VLESS]
-      - سرویس رایگان نوا 8.6.112.165:443 [TROJAN]
-      - سرویس رایگان نوا Grok.com:443 [SS]
-      - سرویس رایگان نوا npmjs.com:443 [VLESS]
-      - سرویس رایگان نوا openai.com:443 [TROJAN]
-      - سرویس رایگان نوا chess.com:443 [SS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy nova-falcon-node-a8da.morteza-b1a.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.126:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.157:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.49:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.19.84:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.48.77:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.32.93:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.98.207:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.240.107:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.154:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.114.197:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.55.1:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.0:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.70.200:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.65.137:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.51.194:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT
